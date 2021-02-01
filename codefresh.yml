@@ -9,7 +9,7 @@ steps:
     title: Cloning main repository...
     stage: prepare
     type: git-clone
-    repo: codefresh-contrib/helm-sample-app
+    repo: lrochette/helm-sample-app
     revision: "${{CF_BRANCH}}"
     git: github
   build:
